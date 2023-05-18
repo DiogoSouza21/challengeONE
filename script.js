@@ -53,3 +53,12 @@ btnDecodificador.addEventListener('click', () => {
     texto.value = '';
 });
 // ##############################################################################
+
+// ################################ Copiar texto ################################
+const btnCopiar = document.querySelector('.btnCopiar');
+btnCopiar.addEventListener('click', () => {
+    const textoResult = document.getElementById('txtResult');
+    navigator.clipboard.writeText(textoResult.value);
+    textoResult.value = '';
+});
+// ##############################################################################
