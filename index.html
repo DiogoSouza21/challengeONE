@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
     <title>Decodificador de texto</title>
 </head>
@@ -14,14 +20,18 @@
         <h1>Decodificador de texto</h1>
     </header>
 
+    <!-- <video autoplay muted loop id="player">
+        <source src="https://www.youtube.com/watch?v=E8y3eDUMb4Q" type="video">
+    </video> -->
+
     <main>
         <section class="textoInserido">
             <div class="texto">
                 <textarea
-                  autofocus
-                  name="codeDecod"
-                  id="codeDecod"
-                  placeholder="Digite o texto aqui..."
+                    autofocus
+                    name="codeDecod"
+                    id="codeDecod"
+                    placeholder="Digite o texto aqui..."
                 ></textarea>
             </div>
             <div class="btnTexto">
@@ -33,43 +43,36 @@
         <section class="resultado">
             <div class="txtResultado">
                 <textarea
-                  name="txtResult"
-                  id="txtResult"
-                  placeholder="Resultado..."
+                    name="txtResult"
+                    id="txtResult"
+                    placeholder="Resultado..."
                 ></textarea>
             </div>
-            <div>
-                <button class="btnCopiar">Copiar</button>
+            <div class="btnCopiar">
+                <button>Copiar</button>
             </div>
         </section>
     </main>
     
     <footer>
         <a href="https://www.facebook.com/diogo.souza3" target="_blank">
-            <img
-              class="icone"
-              alt="Icone Facebook"
-              src="../images/facebook (1).png"
-            />
+            <img class="icone" alt="Icone Facebook" src="./images/facebook (1).png" />
         </a>
 
         <a href="https://www.instagram.com/diogo21s/" target="_blank">
-            <img
-              class="icone"
-              alt="Icone Instagram"
-              src="../images/instagram.png"
-            />
+            <img class="icone" alt="Icone Instagram" src="./images/instagram.png" />
         </a>
 
-        <a 
-            href="https://api.whatsapp.com/send?phone=5535998215322&text=%F0%9F%96%90%F0%9F%98%84"
-            target="_blank"
-        >
-            <img
-                class="icone"
-                alt="Icone WhatsApp"
-                src="../images/whatsapp.png"
-            />
+        <a href="https://api.whatsapp.com/send?phone=5535998215322" target="_blank">
+            <img class="icone"  alt="Icone WhatsApp" src="./images/whatsapp.png" />
+        </a>
+        
+        <a href="https://www.linkedin.com/in/diogosouza3/" target="_blank">
+            <img class="icone" alt="Icone LinkedIn" src="./images/linkedin (1).png" />
+        </a>
+
+        <a href="https://github.com/DiogoSouza21" target="_blank">
+            <img class="icone" alt="Icone GitHub" src="./images/github.png" />
         </a>
     </footer>
 </body>
