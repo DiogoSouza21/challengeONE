@@ -130,3 +130,32 @@ footer {
   }
 
 /* ####################################### */
+
+/* ################ Media ################ */
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1em;
+    }
+
+    .textoInserido, .resultado {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .btnTexto {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0.5em;
+    }
+
+    .btnTexto button {
+        width: 100%;
+    }
+
+    .btnCopiar button {
+        width: 100%;
+    }
+}
+/* ####################################### */
